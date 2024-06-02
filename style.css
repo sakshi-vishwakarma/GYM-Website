@@ -1,0 +1,129 @@
+ body{
+              background:url('background.jpg');
+              margin:0px;
+              padding:0px;
+              color:white;
+              font-family:times new roman; 
+              font-weight:bold; 
+}
+.left{
+    
+    display:inline-block;
+    position:fixed;
+    left:14px;
+    top:15px;
+    width:258px;
+}
+.name{
+    
+    float:left;
+    position:fixed;
+     left:5px;
+    top:15px;
+    
+    padding:34px;
+    font-style:italic;
+    
+    
+}
+.left img{
+    width:10%;
+    height:10%;
+    filter:invert(100%);
+    margin: 0px 40px;
+}
+.mid{
+     /* border:2px solid green;*/
+      display:block;
+      width:51%;
+      margin:11px auto;
+      /* position:fixed;
+      left:225px;
+  */    
+}
+.right{
+   /*   border:2px solid yellow; */
+       display:inline-block;
+       position:absolute;
+       right:34px;
+       top:20px;
+}  
+.btn{
+    margin:0px 0px;
+    background-color:black;
+    color:white;
+    padding:6px 14px;
+    border:1.5px solid white;
+    border-radius:14px;
+    font-family:times new roman;
+    cursor:pointer;
+    font-weight:bold;
+    font-size:12px;
+}   
+.btn:hover{
+    background-color:rgb(31 30 30);
+    text-decoration:underline;
+}  
+.navbar{
+    display:inline-block;
+    color:white;
+}     
+.navbar li{
+      display:inline-block;
+      color:white;
+      
+}
+.navbar li a{
+    color:white;
+    text-decoration:none;
+    padding:24px 20px;    
+}
+.navbar li a:hover,.navbar li a:active{
+    color:grey;
+    text-decoration:underline;
+}
+.container{
+    border:2px solid white;
+    margin:80px 400px;
+    padding:35px;
+    border-radius:10px;
+    width:33%;
+    height:65%;
+    position:absolute;
+    top:15px;
+    left:50px;
+    background-color: white;
+  
+    
+}
+.formgroup{
+    text-align:center;
+    display:block;
+    width:335px;
+    padding:5px;
+   border:2px solid white;
+    margin:15px auto;
+    font-size:16px;
+    border-radius:10px;
+    background-color:#434343;
+    color:white;
+    font-weight:none;
+    
+    
+}
+.formgroup input:hover{
+bakcground-color:grey;
+    
+}
+.container h2{
+    text-align:center;
+    color:black;
+}
+.submit{
+    display:block;
+    width:35%;
+    margin:auto;
+}
+
+
+
